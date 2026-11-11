@@ -386,7 +386,7 @@ document.getElementById("applicationForm")
   }
 
   if(percentage < 0 || percentage > 100) {
-    alert("النسبة يجب أن تكون بين 50 و100.");
+    alert("النسبة يجب أن تكون بين 0 و100.");
     return;
   }
 
@@ -405,6 +405,7 @@ document.getElementById("applicationForm")
 
   console.log("طلب التقديم:", application);
 
+  alert("تم التحقق من البيانات بنجاح. هذه نسخة تجريبية؛ لم يتم إرسال الطلب أو حفظه بعد.");
 });
 </script>
 
